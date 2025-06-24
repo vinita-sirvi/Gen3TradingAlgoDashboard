@@ -1,0 +1,13 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  font-family: sans-serif; /* Or your preferred font */
+}
+
+.app-main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Prevents content from overflowing main area */
+}
